@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.site-title {
+    color: black !important;
+    font-family: Bubbler One;
+    font-size: 2rem;
+    font-weight: bolder !important;
+    text-decoration: none;
+}
+
+.main-navbar {
+    align-items: center;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1000px;
+    padding: 0% 1rem;
+    position: sticky;
+}
+
+.main-navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-items {
+    text-decoration: none;
+    color: #444;
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+    font-family: Nunito;
+}
+
+/* This is for later */
+/* .nav-items:active {
+    font-weight: bolder;
+} */
+
+.nav-items:hover {
+    border-radius: 4px;
+    color: black;
+    font-weight: bolder;
+    transition: color 0.5s;
+}
+
+.nav-items-contactbutton {
+    background-color: #98c1d9;
+    background-image: linear-gradient(#000000,#000000);
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+    border-radius: 40px;
+    color: black;
+    font-family: Nunito;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.nav-items-contactbutton:hover {
+    background-size: 100% 100%;
+    color: #98c1d9;
+}
+
+/* @media (max-width: 600px) {
+    .main-navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .main-navbar ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-items {
+        width: 100%;
+        padding: 0.5rem 0;
+    }
+
+    .nav-items-contactbutton {
+        width: 100%;
+        text-align: center;
+    }
+} */
