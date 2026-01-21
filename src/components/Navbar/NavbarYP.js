@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import "../css/navbar.css";
+import "./navbar.css";
+import closeIcon from "../../assets/images/close.png";
+import menuIcon from "../../assets/images/menu.png";
 
 function NavbarYP() {
   const [expanded, setExpanded] = useState(false);
@@ -25,7 +27,7 @@ function NavbarYP() {
 
         <Navbar.Toggle aria-controls="main-nav" className="ms-auto order-lg-2">
           <img
-            src={expanded ? "/close.png" : "/menu.png"}
+            src={expanded ? closeIcon : menuIcon}
             alt="Menu"
             className="menu-icon"
           />

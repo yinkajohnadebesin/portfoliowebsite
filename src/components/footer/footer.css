@@ -1,0 +1,52 @@
+.footer-divider {
+    border-top: 1px solid black;
+    margin: 1rem 150px;
+}
+
+.footer-brand {
+    color: black;
+    font-family: Bubbler One;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+p {
+    color: #444;
+    font-family: Nunito;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.socials-icon {
+    width: 32px;
+    height: 32px;
+    color: black;
+}
+
+.socials-icon:hover {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.youtube:hover {
+    color: #FF0000;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.instagram:hover {
+    color: #FF00D4;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.github:hover {
+    color: #6E5494;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.linkedin:hover {
+    color: #0A66C2;
+    cursor: pointer;
+    transform: scale(1.1);
+}
