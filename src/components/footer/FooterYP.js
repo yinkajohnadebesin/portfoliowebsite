@@ -7,10 +7,9 @@ import "./footer.css";
 
 function FooterYP() {
   return (
-    <>
-      <hr className="footer-divider" />
-
+    <div className="FooterYP">
       <Container>
+        <hr className="footer-divider" />
         <Row className="justify-content-center text-center">
           <Col
             md={4}
@@ -49,7 +48,7 @@ function FooterYP() {
             </a>
 
             <a
-              href="https://github.com/yinkajohnadebesin"
+              href="https://github.com/yinkajohnadebesin/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
@@ -85,7 +84,7 @@ function FooterYP() {
           ></Col>
         </Row>
       </Container>
-    </>
+    </div>
   );
 }
 

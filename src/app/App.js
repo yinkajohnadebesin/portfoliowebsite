@@ -1,7 +1,7 @@
 import { Routes } from "react-router-dom";
-import NavbarYP from "./components/Navbar/NavbarYP";
-import FooterYP from "./components/footer/FooterYP"
-import './App.css';
+import NavbarYP from "../components/Navbar/NavbarYP";
+import FooterYP from "../components/footer/FooterYP";
+import "./App.css";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Route path="/contact-me" element={<ContactMe />} />
         <Route path="/about-me" element={<AboutMe />} /> */}
       </Routes>
-      <FooterYP />
+      <FooterYP/>
     </div>
   );
 }
