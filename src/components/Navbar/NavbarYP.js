@@ -16,19 +16,20 @@ function NavbarYP() {
         className="main-navbar"
       >
         <Container>
-          <Navbar.Brand href="/" className="site-title">
-            YinkaAdebesin
+          <Navbar.Brand href="/" className="site-title mx-0">
+            <span className="d-none d-sm-inline ">YinkaAdebesin</span>
+            <span className="d-inline d-sm-none">YA</span>
           </Navbar.Brand>
 
           <Nav className="mx-auto mx-lg-0 order-lg-3">
-            <Nav.Link href="/" className="nav-items-contactbutton">
+            <Nav.Link href="/" className="btn btn--contactme">
               Contact me ➜
             </Nav.Link>
           </Nav>
 
           <Navbar.Toggle
             aria-controls="main-nav"
-            className="ms-auto order-lg-2"
+            className="order-lg-2"
           >
             <img
               src={expanded ? closeIcon : menuIcon}
@@ -40,7 +41,7 @@ function NavbarYP() {
           <Navbar.Collapse id="main-nav" className="order-lg-1">
             <Nav className="nav-links mx-auto">
               <Nav.Link href="/" className="nav-items">
-                ABOUT YINKA
+                ABOUT ME
               </Nav.Link>
               <Nav.Link href="/" className="nav-items">
                 PROJECTS

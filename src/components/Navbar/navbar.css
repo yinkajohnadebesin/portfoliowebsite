@@ -74,22 +74,11 @@ body {
     transition: color 0.5s;
 }
 
-.nav-items-contactbutton {
+.btn--contactme {
     background-color: #98c1d9;
-    background-image: linear-gradient(#000000,#000000);
-    background-repeat: no-repeat;
-    background-size: 0 100%;
-    border-radius: 40px;
-    color: black !important;
-    font-family: Nunito;
-    font-size: 1rem;
-    font-weight: bold;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    transition: .4s;
+    background-image: linear-gradient(black, black);
+    color: black;
 }
-
-.nav-items-contactbutton:hover {
-    background-size: 100% 100%;
-    color: #98c1d9 !important;
+.btn--contactme:hover {
+    color: #98c1d9;
 }

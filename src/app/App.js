@@ -1,6 +1,7 @@
-import { Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import NavbarYP from "../components/Navbar/NavbarYP";
 import FooterYP from "../components/footer/FooterYP";
+import Welcome from "../pages/Welcome/Welcome.js"
 import "./App.css";
 
 function App() {
@@ -8,8 +9,8 @@ function App() {
     <div className="app-wrapper">
       <NavbarYP />
       <Routes>
-        {/* <Route path="/" element={<Welcome />} />
-        <Route path="/skills" element={<Skills />} />
+        <Route path="/" element={<Welcome />} />
+        {/* <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact-me" element={<ContactMe />} />
         <Route path="/about-me" element={<AboutMe />} /> */}
