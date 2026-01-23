@@ -10,7 +10,7 @@ function NavbarYP() {
   return (
     <div className="NavbarYP">
       <Navbar
-        expand="lg"
+        expand="md"
         expanded={expanded}
         onToggle={(val) => setExpanded(val)}
         className="main-navbar"
@@ -21,7 +21,7 @@ function NavbarYP() {
             <span className="d-inline d-sm-none">YA</span>
           </Navbar.Brand>
 
-          <Nav className="mx-auto mx-lg-0 order-lg-3">
+          <Nav className="mx-auto mx-md-0 order-md-3">
             <Nav.Link href="/" className="btn btn--contactme">
               Contact me ➜
             </Nav.Link>

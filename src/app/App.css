@@ -26,7 +26,7 @@
 }
 
 /* For Bootstrap referencing */
-
+/* 
 body::before {
   content: "XS";
   color: blue;
@@ -34,43 +34,43 @@ body::before {
   font-weight: bolder;
   position: fixed;
   top: 4em;
-  right: 0;
+  right: 2em;
 }
 
-/* // X-Small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap */
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
 
-/* // Small devices (landscape phones, 576px and up) */
+// Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
   body::before {
     content: "SM";
   }
 }
 
-/* // Medium devices (tablets, 768px and up) */
+// Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   body::before {
     content: "MD";
   }
 }
 
-/* // Large devices (desktops, 992px and up) */
+// Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   body::before {
     content: "LG";
   }
 }
 
-/* // X-Large devices (large desktops, 1200px and up) */
+// X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   body::before {
     content: "XL";
   }
 }
 
-/* // XX-Large devices (larger desktops, 1400px and up) */
+// XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
   body::before {
     content: "XXL";
   }
-}
+} */
