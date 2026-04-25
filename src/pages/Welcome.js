@@ -1,6 +1,6 @@
 import { Container, Nav, Row, Col } from "react-bootstrap";
-import WelcomePagePhoto from "../../assets/images/grad_photo_1.JPG";
-import "./welcome.css";
+import WelcomePagePhoto from "../assets/images/grad_photo_1.JPG";
+import "../css/welcome.css";
 
 function Welcome() {
   return (
@@ -29,7 +29,7 @@ function Welcome() {
               </Nav.Link>
             </Col>
             <Col xs="auto">
-              <Nav.Link href="/" className="btn btn--learnmore">
+              <Nav.Link href="/about-me" className="btn btn--learnmore">
                 Learn more
               </Nav.Link>
             </Col>
@@ -40,7 +40,7 @@ function Welcome() {
           <img
             src={WelcomePagePhoto}
             alt="Yinka's graduation"
-            className="welcome-photo"
+            className="photos"
           ></img>
         </Col>
       </Row>

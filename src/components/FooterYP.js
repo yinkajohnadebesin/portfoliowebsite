@@ -1,9 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
-import YouTube from "../../assets/icons/YouTube.js";
-import GitHub from "../../assets/icons/GitHub.js";
-import Instagram from "../../assets/icons/Instagram.js";
-import LinkedIn from "../../assets/icons/LinkedIn.js";
-import "./footer.css";
+import YouTube from "../assets/icons/YouTube.js";
+import GitHub from "../assets/icons/GitHub.js";
+import Instagram from "../assets/icons/Instagram.js";
+import LinkedIn from "../assets/icons/LinkedIn.js";
+import "../css/footer.css";
 
 function FooterYP() {
   return (
@@ -63,7 +63,7 @@ function FooterYP() {
             sm={4}
             className="align-items-center d-flex justify-content-center my-3 my-sm-3"
           >
-            <p>Available for opportunities</p>
+            <p className="footer-text">Available for opportunities</p>
           </Col>
         </Row>
 
@@ -73,15 +73,15 @@ function FooterYP() {
             sm={4}
             className="align-items-center d-flex flex-column justify-content-center my-3 my-sm-3"
           >
-            <p>© {new Date().getFullYear()} • Yinka John Adebesin.</p>
-            <p>All rights reserved</p>
+            <p className="footer-text">© {new Date().getFullYear()} • Yinka John Adebesin.</p>
+            <p className="footer-text">All rights reserved</p>
           </Col>
           <Col
             xs={12}
             sm={4}
             className="align-items-center d-flex justify-content-center my-3 my-sm-3"
           >
-            <p>Dublin, Ireland</p>
+            <p className="footer-text">Dublin, Ireland</p>
           </Col>
           <Col
             xs={12}

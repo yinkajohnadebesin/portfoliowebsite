@@ -1,10 +1,3 @@
-.welcome-photo {
-    max-width: 90%;
-    max-height: 90%;
-    object-fit: contain;
-    border-radius: 40px;
-}
-
 .left-container {
     overflow: hidden;
     display: flex;

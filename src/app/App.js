@@ -1,7 +1,8 @@
 import { Route, Routes } from "react-router-dom";
-import NavbarYP from "../components/Navbar/NavbarYP";
-import FooterYP from "../components/footer/FooterYP";
-import Welcome from "../pages/Welcome/Welcome.js"
+import NavbarYP from "../components/NavbarYP";
+import FooterYP from "../components/FooterYP";
+import Welcome from "../pages/Welcome.js";
+import AboutMe from "../pages/AboutMe.js";
 import "./App.css";
 
 function App() {
@@ -10,12 +11,12 @@ function App() {
       <NavbarYP />
       <Routes>
         <Route path="/" element={<Welcome />} />
+        <Route path="/about-me" element={<AboutMe />} />
         {/* <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/contact-me" element={<ContactMe />} />
-        <Route path="/about-me" element={<AboutMe />} /> */}
+        <Route path="/contact-me" element={<ContactMe />} /> */}
       </Routes>
-      <FooterYP/>
+      <FooterYP />
     </div>
   );
 }

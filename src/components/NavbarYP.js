@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import "./navbar.css";
-import closeIcon from "../../assets/images/close.png";
-import menuIcon from "../../assets/images/menu.png";
+import "../css/navbar.css";
+import closeIcon from "../assets/images/close.png";
+import menuIcon from "../assets/images/menu.png";
 
 function NavbarYP() {
   const [expanded, setExpanded] = useState(false);
@@ -40,7 +40,7 @@ function NavbarYP() {
 
           <Navbar.Collapse id="main-nav" className="order-lg-1">
             <Nav className="nav-links mx-auto">
-              <Nav.Link href="/" className="nav-items">
+              <Nav.Link href="/about-me" className="nav-items">
                 ABOUT ME
               </Nav.Link>
               <Nav.Link href="/" className="nav-items">
